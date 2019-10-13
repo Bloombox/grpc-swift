@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.summary = 'Swift gRPC code generator plugin and runtime library'
   s.homepage = 'https://www.grpc.io'
   s.authors  = { 'The gRPC contributors' => 'grpc-packages@google.com' }
-  s.source = { :git => 'https://github.com/grpc/grpc-swift.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/bloombox/grpc-swift.git', :tag => s.version }
 
   s.swift_version = "5.0"
   s.requires_arc = true
